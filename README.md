@@ -5,10 +5,10 @@ Human Action Recognition (HAR) is a process of identifying and categorizing huma
 
 ## Some use cases
 - Healthcare.
-- Surveillance and Security
-- Sports and Fitness
+- Surveillance and Security.
+- Sports and Fitness.
 - Robotics.
-- Entertainment
+- Entertainment.
 
 ## Tools
 - Python
