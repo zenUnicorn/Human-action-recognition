@@ -8,8 +8,8 @@ Human Action Recognition (HAR) is a process of identifying and categorizing huma
 - Surveillance and Security
 - Sports and Fitness
 - Robotics.
- 
-**
+- Entertainment
+
 ## Tools
 - Python
 - Comet
