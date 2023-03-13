@@ -16,3 +16,4 @@ Human Action Recognition (HAR) is a process of identifying and categorizing huma
 - VGG16 model
 
 ## The VGG model?
+The VGG (Visual Geometry Group) model is a deep convolutional neural network architecture for image recognition tasks. It was introduced in 2014 by a group of researchers from the University of Oxford. 
