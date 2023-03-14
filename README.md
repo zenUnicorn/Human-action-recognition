@@ -46,4 +46,8 @@ import matplotlib.pyplot as plt
 
 ## Display images
 
+```python
+
+```
+
 Happy Coding :)
