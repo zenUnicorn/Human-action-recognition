@@ -23,6 +23,9 @@ The VGG model is known for its simplicity and effectiveness in image classificat
 
 ## Dataset
 
+This dataset includes 15 distinct categories of human activities.
+With each image having just one category for human activity and being saved in a separate folder for each labelled class, it contains about 12k+ labelled images, including the validation images.
+
 ## Libraries
 
 ```Python
