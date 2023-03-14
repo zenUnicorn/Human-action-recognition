@@ -21,11 +21,29 @@ The VGG (Visual Geometry Group) model is a deep convolutional neural network arc
 
 The VGG model is known for its simplicity and effectiveness in image classification tasks. The model architecture consists of a series of convolutional layers, followed by max-pooling layers and finally, fully connected layers.
 
-## Code..
+## Libraries
 
 ```Python
-print("Hello world")
+import os
+import glob
+import random
+import numpy as np
+import pandas as pd
+
+import tensorflow_addons as tfa
+import tensorflow as tf
+from tensorflow import keras
+from keras import layers
+from keras.models import Sequential
+from keras.layers import Conv2D,MaxPooling2D,Activation, Dropout, Flatten, Dense
+from keras.preprocessing.image import ImageDataGenerator
+
+from tensorflow.keras.utils import to_categorical
+
+import matplotlib.image as img
+import matplotlib.pyplot as plt
 ```
 
+##
 
 Happy Coding :)
