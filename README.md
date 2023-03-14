@@ -47,7 +47,17 @@ import matplotlib.pyplot as plt
 ## Display images
 
 ```python
+def DisplayImage():
+    num = random.randint(1,10000)
+    images = "Image_{}.jpg".format(num)
+    train = "train/"
+    if os.path.exists(train+images):
+        testImage = img.imread(train+images)
+        plt.imshow(testImage)
+        plt.title("{}".format(train_dataset.loc[train_dataset['filename'] == "{}".format(images), 'label'].item()))
 
+    else:
+        print("File Path not found")
 ```
 
 Happy Coding :)
