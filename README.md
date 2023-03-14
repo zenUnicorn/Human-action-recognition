@@ -44,6 +44,6 @@ import matplotlib.image as img
 import matplotlib.pyplot as plt
 ```
 
-##
+## Display images
 
 Happy Coding :)
