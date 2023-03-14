@@ -63,6 +63,20 @@ def DisplayImage():
 ## Model 
 
 ```python
+vgg_model = Sequential()
+
+pretrained_model= tf.keras.applications.VGG16(include_top=False,
+                   input_shape=(160,160,3),
+                   pooling='avg',classes=15,
+                   weights='imagenet')
+
+for layer in pretrained_model.layers:
+        layer.trainable=False
+
+vgg_model.add(pretrained_model)
+vgg_model.add(Flatten())
+vgg_model.add(Dense(512, activation='relu'))
+vgg_model.add(Dense(15, activation='softmax'))
 ```
 
 ## Test model
