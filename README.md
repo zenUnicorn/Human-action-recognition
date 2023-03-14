@@ -82,7 +82,18 @@ vgg_model.add(Dense(15, activation='softmax'))
 ## Test model
 
 ```python
+# Function to predict
 
+def test_predict(test_image):
+    result = vgg_model.predict(np.asarray([read_image(test_image)]))
+
+    itemindex = np.where(result==np.max(result))
+    prediction = itemindex[1][0]
+    print("probability: "+str(np.max(result)*100) + "%\nPredicted class : ", prediction)
+
+    image = img.imread(test_image)
+    plt.imshow(image)
+    plt.title(prediction)
 ```
 
 Happy Coding :)
