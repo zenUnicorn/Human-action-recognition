@@ -101,4 +101,4 @@ def test_predict(test_image):
     plt.title(prediction)
 ```
 
-Happy Coding :).
+Happy Coding :)
