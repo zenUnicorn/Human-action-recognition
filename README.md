@@ -12,7 +12,7 @@ Human Action Recognition (HAR) is a process of identifying and categorizing huma
 
 ## Tools
 - Python.
-- Comet
+- Comet.
 - VGG16 model
 
 ## The VGG model?
